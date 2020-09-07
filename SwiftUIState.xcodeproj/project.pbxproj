@@ -13,6 +13,8 @@
 		EBCAD2FE25063C3E0036E994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCAD2FD25063C3E0036E994 /* Assets.xcassets */; };
 		EBCAD30125063C3E0036E994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCAD30025063C3E0036E994 /* Preview Assets.xcassets */; };
 		EBCAD30425063C3E0036E994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCAD30225063C3E0036E994 /* LaunchScreen.storyboard */; };
+		EBFBF32725065EB900223210 /* StateExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFBF32625065EB900223210 /* StateExample2.swift */; };
+		EBFBF32A250661DA00223210 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFBF329250661DA00223210 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EBCAD30025063C3E0036E994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBCAD30325063C3E0036E994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBCAD30525063C3E0036E994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFBF32625065EB900223210 /* StateExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample2.swift; sourceTree = "<group>"; };
+		EBFBF329250661DA00223210 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EBCAD2F625063C3D0036E994 /* SwiftUIState */ = {
 			isa = PBXGroup;
 			children = (
+				EBFBF328250661AA00223210 /* Model */,
 				EBCAD2F725063C3D0036E994 /* AppDelegate.swift */,
 				EBCAD2F925063C3D0036E994 /* SceneDelegate.swift */,
 				EBCAD2FB25063C3D0036E994 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				EBCAD30225063C3E0036E994 /* LaunchScreen.storyboard */,
 				EBCAD30525063C3E0036E994 /* Info.plist */,
 				EBCAD2FF25063C3E0036E994 /* Preview Content */,
+				EBFBF32625065EB900223210 /* StateExample2.swift */,
 			);
 			path = SwiftUIState;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				EBCAD30025063C3E0036E994 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBFBF328250661AA00223210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBFBF329250661DA00223210 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCAD2F825063C3D0036E994 /* AppDelegate.swift in Sources */,
+				EBFBF32725065EB900223210 /* StateExample2.swift in Sources */,
+				EBFBF32A250661DA00223210 /* Task.swift in Sources */,
 				EBCAD2FA25063C3D0036E994 /* SceneDelegate.swift in Sources */,
 				EBCAD2FC25063C3D0036E994 /* ContentView.swift in Sources */,
 			);
